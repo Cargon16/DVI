@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<title>CoviDodge</title>
+<script src='./lib/quintus.js'></script>
+<script src='./lib/quintus_sprites.js'></script>
+  <script src='./lib/quintus_scenes.js'></script>
+  <script src='./lib/quintus_2d.js'></script>
+  <script src='./lib/quintus_input.js'></script>
+  <script src='./lib/quintus_ui.js'></script>
+  <script src='./lib/quintus_touch.js'></script>
+  <script src='./lib/quintus_anim.js'></script>
+  <script src='./lib/quintus_tmx.js'></script>
+  <script src='./lib/quintus_audio.js'></script>
+  <script src='coviDodge.js'></script>
+  <script src='ranking.js'></script>
+<!-- Añadir aquí el resto de módulos de Quintus -->
+<style>
+  canvas { background-image: url("images/hospital.png"); background-repeat: no-repeat; background-size: cover; }
+  body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    html{
+      background-color: black;
+    }
+</style>
+</head>
+<body>
+  <!-- <input type="file" name="inputfile"
+            id="inputfile" value="ranking.txt" hidden> -->
+
+  <script type="text/javascript">
+  window.onload=game;
+  
+  </script>
+</body>
+</html>

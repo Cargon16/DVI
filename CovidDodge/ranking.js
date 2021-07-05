@@ -1,0 +1,1 @@
+var DATA = {"easy" : 0, "normal" : 0, "dificult":0, "infinite":0};

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="300" height="18" tilewidth="34" tileheight="34" infinite="0" nextlayerid="8" nextobjectid="466">
+ <tileset firstgid="1" name="covidVerde" tilewidth="100" tileheight="100" tilecount="3" columns="3">
+  <image source="../images/covidVerde.png" trans="ff00ff" width="300" height="100"/>
+  <tile id="0">
+   <properties>
+    <property name="Class" value="covidVerde"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="4" name="covidRojo" tilewidth="100" tileheight="100" tilecount="3" columns="3">
+  <image source="../images/covidRojo.png" trans="ff00ff" width="300" height="100"/>
+  <tile id="0">
+   <properties>
+    <property name="Class" value="covidRojo"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="7" name="covidAzul" tilewidth="100" tileheight="100" tilecount="3" columns="3">
+  <image source="../images/covidAzul.png" trans="ff00ff" width="300" height="100"/>
+  <tile id="0">
+   <properties>
+    <property name="Class" value="covidAzul"/>
+   </properties>
+  </tile>
+ </tileset>
+ <imagelayer id="1" name="background" offsetx="-3.88313" offsety="3.88313">
+  <image source="../images/fondoDificil.png" width="1500" height="612"/>
+ </imagelayer>
+ <objectgroup id="7" name="objets" offsetx="-4.03591" offsety="0">
+  <object id="386" gid="1" x="845.971" y="207.4" width="100" height="100"/>
+  <object id="387" gid="1" x="1293.96" y="384.98" width="100" height="100"/>
+  <object id="388" gid="1" x="929.299" y="366.801" width="100" height="100"/>
+  <object id="389" gid="4" x="1335.78" y="130.969" width="100" height="100"/>
+  <object id="390" gid="4" x="2386.19" y="519.231" width="100" height="100"/>
+  <object id="391" gid="4" x="2142.36" y="576.693" width="100" height="100"/>
+  <object id="392" gid="4" x="1742.74" y="276.704" width="100" height="100"/>
+  <object id="393" gid="7" x="1038.92" y="270.539" width="100" height="100"/>
+  <object id="394" gid="7" x="1167.22" y="470.58" width="100" height="100"/>
+  <object id="395" gid="7" x="2634.13" y="164.077" width="100" height="100"/>
+  <object id="396" gid="7" x="2816.7" y="385.333" width="100" height="100"/>
+  <object id="397" gid="7" x="3001.04" y="285" width="100" height="100"/>
+  <object id="398" gid="7" x="3222.04" y="563" width="100" height="100"/>
+  <object id="399" gid="7" x="3485.04" y="490" width="100" height="100"/>
+  <object id="402" gid="4" x="4344.04" y="450" width="100" height="100"/>
+  <object id="403" gid="4" x="4478.04" y="255" width="100" height="100"/>
+  <object id="404" gid="4" x="4774.04" y="344" width="100" height="100"/>
+  <object id="406" gid="7" x="5290.04" y="176" width="100" height="100"/>
+  <object id="408" gid="4" x="5989.37" y="508.667" width="100" height="100"/>
+  <object id="409" gid="4" x="6174.04" y="373.333" width="100" height="100"/>
+  <object id="410" gid="1" x="3891.04" y="94" width="100" height="100"/>
+  <object id="411" gid="1" x="3894.04" y="186" width="100" height="100"/>
+  <object id="412" gid="1" x="3927.04" y="607" width="100" height="100"/>
+  <object id="413" gid="1" x="3956.37" y="251.333" width="100" height="100"/>
+  <object id="414" gid="1" x="3925.04" y="518" width="100" height="100"/>
+  <object id="415" gid="1" x="3980.7" y="448.333" width="100" height="100"/>
+  <object id="416" gid="1" x="5467.04" y="109" width="100" height="100"/>
+  <object id="417" gid="1" x="5467.04" y="198" width="100" height="100"/>
+  <object id="418" gid="1" x="5481.04" y="594" width="100" height="100"/>
+  <object id="419" gid="1" x="5607.04" y="567" width="100" height="100"/>
+  <object id="420" gid="1" x="5523.04" y="464" width="100" height="100"/>
+  <object id="421" gid="1" x="2067.37" y="76.6667" width="100" height="100"/>
+  <object id="422" gid="1" x="2190.04" y="84.6667" width="100" height="100"/>
+  <object id="423" gid="1" x="1764.7" y="640.667" width="100" height="100"/>
+  <object id="424" gid="1" x="1468.7" y="636.667" width="100" height="100"/>
+  <object id="425" gid="1" x="2418.04" y="648.667" width="100" height="100"/>
+  <object id="426" gid="1" x="2502.04" y="643.333" width="100" height="100"/>
+  <object id="427" gid="1" x="1734.04" y="60.6667" width="100" height="100"/>
+  <object id="429" gid="1" x="4296.7" y="60.6667" width="100" height="100"/>
+  <object id="430" gid="1" x="4650.04" y="62" width="100" height="100"/>
+  <object id="431" gid="1" x="4774.04" y="64.6667" width="100" height="100"/>
+  <object id="432" gid="1" x="4456.7" y="630" width="100" height="100"/>
+  <object id="433" gid="1" x="4764.7" y="630" width="100" height="100"/>
+  <object id="434" gid="1" x="4846.04" y="627.333" width="100" height="100"/>
+  <object id="435" gid="1" x="6500.7" y="79.3333" width="100" height="100"/>
+  <object id="436" gid="1" x="6631.37" y="278" width="100" height="100"/>
+  <object id="437" gid="1" x="6480.7" y="615.333" width="100" height="100"/>
+  <object id="438" gid="1" x="6552.7" y="540.667" width="100" height="100"/>
+  <object id="439" gid="1" x="6652.7" y="511.333" width="100" height="100"/>
+  <object id="440" gid="1" x="6947.37" y="276.667" width="100" height="100"/>
+  <object id="441" gid="1" x="6416.7" y="114" width="100" height="100"/>
+  <object id="443" gid="7" x="6796.7" y="278" width="100" height="100"/>
+  <object id="445" gid="7" x="7190.04" y="579.333" width="100" height="100"/>
+  <object id="448" gid="4" x="7686.04" y="486" width="100" height="100"/>
+  <object id="449" gid="4" x="7890.04" y="283.333" width="100" height="100"/>
+  <object id="450" gid="4" x="8148.7" y="239.333" width="100" height="100"/>
+  <object id="452" gid="7" x="8678.04" y="108.667" width="100" height="100"/>
+  <object id="453" gid="7" x="8955.37" y="110" width="100" height="100"/>
+  <object id="454" gid="1" x="7356.7" y="75.3333" width="100" height="100"/>
+  <object id="455" gid="1" x="7452.7" y="67.3333" width="100" height="100"/>
+  <object id="456" gid="1" x="8026.04" y="63.3333" width="100" height="100"/>
+  <object id="457" gid="1" x="7598.04" y="643.333" width="100" height="100"/>
+  <object id="458" gid="1" x="7850.04" y="651.333" width="100" height="100"/>
+  <object id="459" gid="1" x="8075.37" y="650" width="100" height="100"/>
+  <object id="460" gid="1" x="8535.37" y="240.667" width="100" height="100"/>
+  <object id="461" gid="1" x="8832.7" y="510" width="100" height="100"/>
+ </objectgroup>
+</map>

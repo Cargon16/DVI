@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="120" height="18" tilewidth="34" tileheight="34" infinite="0" nextlayerid="8" nextobjectid="373">
+ <tileset firstgid="1" name="jeringa" tilewidth="150" tileheight="270" tilecount="1" columns="1">
+  <image source="../images/jerginga.png" trans="ff00ff" width="150" height="270"/>
+  <tile id="0">
+   <properties>
+    <property name="Class" value="Doctor"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="covidAzul" tilewidth="100" tileheight="100" tilecount="3" columns="3">
+  <image source="../images/covidAzul.png" trans="ff00ff" width="300" height="100"/>
+  <tile id="0">
+   <properties>
+    <property name="Class" value="covidAzul"/>
+   </properties>
+  </tile>
+ </tileset>
+ <imagelayer id="1" name="background" offsetx="-3.88313" offsety="3.88313">
+  <image source="../images/fondoNormal.png" width="1024" height="612"/>
+ </imagelayer>
+ <objectgroup id="7" name="objets" offsetx="2" offsety="0">
+  <object id="346" gid="2" x="600" y="564" width="100" height="100"/>
+  <object id="348" gid="2" x="900" y="598" width="100" height="100"/>
+  <object id="349" gid="2" x="1016" y="120" width="100" height="100"/>
+  <object id="351" gid="2" x="1221" y="249" width="100" height="100"/>
+  <object id="352" gid="2" x="1329" y="553" width="100" height="100"/>
+  <object id="353" gid="2" x="1485" y="278" width="100" height="100"/>
+  <object id="354" gid="2" x="1951" y="609" width="100" height="100"/>
+  <object id="356" gid="2" x="2053" y="509" width="100" height="100"/>
+  <object id="358" gid="2" x="2273" y="296" width="100" height="100"/>
+  <object id="359" gid="2" x="2369" y="201" width="100" height="100"/>
+  <object id="360" gid="2" x="2510" y="619" width="100" height="100"/>
+  <object id="362" gid="2" x="2690" y="429" width="100" height="100"/>
+  <object id="364" gid="2" x="2858" y="253" width="100" height="100"/>
+  <object id="366" gid="2" x="3210" y="106" width="100" height="100"/>
+  <object id="367" gid="2" x="3406" y="630" width="100" height="100"/>
+  <object id="368" gid="2" x="3626" y="100" width="100" height="100"/>
+  <object id="369" gid="2" x="3796" y="618" width="100" height="100"/>
+  <object id="370" gid="1" x="3925" y="437" width="150" height="270"/>
+  <object id="371" gid="2" x="3014" y="630" width="100" height="100"/>
+ </objectgroup>
+</map>
